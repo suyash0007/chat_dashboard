@@ -26,7 +26,7 @@ function App() {
 
   return (
     <ChatSessionProvider>
-      <div className="flex h-screen">
+      <div className="flex h-full">
         {isMobile && isSidebarOpen && (
           <div
             className={`fixed inset-0 z-40 bg-white shadow-md transition-transform transform duration-3000 ease-in-out ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}
