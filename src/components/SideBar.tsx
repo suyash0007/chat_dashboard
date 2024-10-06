@@ -81,7 +81,7 @@ const Sidebar: React.FC<{ onClose: () => void }> = ({ onClose }) => {
   );
 
   return (
-    <div className="h-full ml-5 mt-6">
+    <div className="h-screen ml-5 mt-6">
       <div
         ref={containerRef}
         className="h-[95%] overflow-y-auto w-full bg-white"
